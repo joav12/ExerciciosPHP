@@ -1,0 +1,12 @@
+O problema escolhido foi o: FizzBuzz
+Neste problema, você deverá exibir uma lista de 1 a 100, um em cada linha, com as seguintes exceções:
+
+Números divisíveis por 3 deve aparecer como 'Fizz' ao invés do número;
+Números divisíveis por 5 devem aparecer como 'Buzz' ao invés do número;
+Números divisíveis por 3 e 5 devem aparecer como 'FizzBuzz' ao invés do número'.
+
+A variavel $i funciona como um loop(Poderia ser utilizado também um for loop mas resolvi utilizar o while) onde ficará adicioando um numero até seu valor ser iqual a 100.
+
+A função divisivel() verifica se o numero em questão é divisivel por 3, 5 ou ambos. Ele verifica se o resultado da divisão é 0 (numero inteiro) para retornar com a palavra requisitada. As duas variaveis dentro dessa função ($resto3 e $resto5) dividem o numero em questão (Que ao final do código é definido como o valor atual de $i no loop).
+
+No final do código ele verifica se a função retornou um False, caso ela tenha, o código retornará o numero atual da variavel $i, agora caso o valor que a função retornou não seja false, o código mostrará esse valor(Variando entre Fizz, Buzz ou FizzBuzz).
